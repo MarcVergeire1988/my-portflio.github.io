@@ -1,0 +1,769 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Marc Vergeire | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Marc Vergeire</span>
+          <br />
+          I'm the Web Developer you need.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Hire Me</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/marc-vergeire.png"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I'm a Web Developer with a focus on the Front-End Development with a touch of Back-End Development, but still exploring other technologies and frameworks that catch my interest!
+              </p>
+              <p class="about-wrapper__info-text">
+                If you're looking for developer to add to your team, I'd love to hear from you!
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/Marc Edison Vergeire CV Resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Project One: Code Ninja Landing Page</h3>
+                <div>
+                  <p class="mb-4">
+                    The first webpage or landing page I've ever built when I started learning to code, at the same time, 
+                    it is responsive. It is simple but with interactive response when you hover over the cursor. With this landing 
+                    page, it is good enough to start a perfect website you always wanted that may wow the client.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://marcvergeire1988.github.io/project-one-code-ninja.github.io/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/MarcVergeire1988/project-one-code-ninja.github.io"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project-1.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Project Two: Landing Page with Mailchimp</h3>
+                <div>
+                  <p class="mb-4">
+                    This project show case its landing page that connects you to the entrepreneur's form that you need to fill out if you want to avail any products and services. Of course, you can customize or modify the form depends on your liking in the Mailchimp which is connects to it. After your prospect client finish filled up the form, it will send to your Mailchimp inbox or account. 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://marcvergeire1988.github.io/project-two-startup-landing-page.github.io/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/MarcVergeire1988/project-two-startup-landing-page.github.io"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project-2.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Project Three: Rock-Paper-Scissors Game</h3>
+                <div>
+                  <p class="mb-4">
+                   Interactive timeless game that is suitable to all ages. The details shows enough for a user to enjoy the game that can track their and the computer's score. The computer select randomly because it has a program that uses basic mathematics and calculate that will align to its options. Fair enough!                                                                 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://marcvergeire1988.github.io/project-three-rps-game.github.io/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/MarcVergeire1988/project-three-rps-game.github.io"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project-3.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+<!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Project Four: Background Color Modifier</h3>
+                <div>
+                  <p class="mb-4">
+                    This background color modifier allows you to change any colors you want and may result to a gradient state. It will give you an idea regards with the color codes and more. Have fun!
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://marcvergeire1988.github.io/project-four-bgcolorgrad.github.io/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/MarcVergeire1988/project-four-bgcolorgrad.github.io"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project-4.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Project Five: Dicee Game</h3>
+                <div>
+                  <p class="mb-4">
+                    Popular dice game that can be played by first person versus second person or computer straight to your desktop, laptop or mobile phone. To make the dice roll, you just need to keep pressing the refresh button. It is a fun and timeless game. Enjoy!
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://marcvergeire1988.github.io/project-five-dicee-game.github.io/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/MarcVergeire1988/project-five-dicee-game.github.io"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project-5.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Project Six: Drum Kit</h3>
+                <div>
+                  <p class="mb-4">
+                   The drum kit webpage that can be played for all ages. It has built-in awesome drumless music tracks such as Seven Nation Army, Yellow and Back in Black. You can use the cursor in pointing to the desired instruments or your keyboard with specific keys. Rock and roll!
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://marcvergeire1988.github.io/project-six-drumkit.github.io/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/MarcVergeire1988/project-six-drumkit.github.io"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project-6.png "
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+<!-- Notice: each .row is a project -->
+<div class="row">
+  <div class="col-lg-4 col-sm-12">
+    <div class="project-wrapper__text load-hidden">
+      <h3 class="project-wrapper__text-title">Project Seven: Weather Forecast Today</h3>
+      <div>
+        <p class="mb-4">
+          Real time and well updated weather forecast of all the places or countries in the world. It is based from Openweathermap.org. You can check the weather in your place now straight from your desktop, laptop or mobile phones using this webpage.
+        </p>
+      </div>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn cta-btn--hero"
+        href="https://marcvergeire1988.github.io/project-seven-weather-forecast-today.github.io/"
+      >
+        See Live
+      </a>
+      <!--<a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn text-color-main"
+        href="https://github.com/MarcVergeire1988/project-seven-weather-forecast-today.github.io"
+      >
+        
+      </a> -->
+    </div>
+  </div>
+  <div class="col-lg-8 col-sm-12">
+    <div class="project-wrapper__image load-hidden">
+      <a rel="noreferrer" href="#!" target="_blank">
+        <div
+          data-tilt
+          data-tilt-max="4"
+          data-tilt-glare="true"
+          data-tilt-max-glare="0.5"
+          class="thumbnail rounded js-tilt"
+        >
+          <img
+            alt="Project Image"
+            class="img-fluid"
+            src="assets/project-7.png"
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- /END Project -->
+
+<!-- Notice: each .row is a project -->
+<div class="row">
+  <div class="col-lg-4 col-sm-12">
+    <div class="project-wrapper__text load-hidden">
+      <h3 class="project-wrapper__text-title">Project Eigth: Keeper Notes App</h3>
+      <div>
+        <p class="mb-4">
+          Basic note app sample using ReactJS. Although it does not come with backend, however, perfect enough as an example to showcase the ability of this simple and interactive notes app. 
+        </p>
+      </div>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn cta-btn--hero"
+        href="https://main--notes-keeper-notes.netlify.app/"
+      >
+        See Live
+      </a>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn text-color-main"
+        href="https://github.com/MarcVergeire1988/project-eight-keeper-notes.github.io"
+      >
+        Source Code
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-8 col-sm-12">
+    <div class="project-wrapper__image load-hidden">
+      <a rel="noreferrer" href="#!" target="_blank">
+        <div
+          data-tilt
+          data-tilt-max="4"
+          data-tilt-glare="true"
+          data-tilt-max-glare="0.5"
+          class="thumbnail rounded js-tilt"
+        >
+          <img
+            alt="Project Image"
+            class="img-fluid"
+            src="assets/project-8.png"
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- /END Project -->
+
+<!-- Notice: each .row is a project -->
+<div class="row">
+  <div class="col-lg-4 col-sm-12">
+    <div class="project-wrapper__text load-hidden">
+      <h3 class="project-wrapper__text-title">Project Nine: Emojipedia</h3>
+      <div>
+        <p class="mb-4">
+         List of some of the emojis with its meaning where we always use from our computers or mobile phones for everyday use to express something along with our messages to a certain person. It is made with ReactJS and using the source code, you can modify the emojis with its meaning and deploy it or change into something else instead.
+        </p>
+      </div>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn cta-btn--hero"
+        href="https://main--emojipedia-list.netlify.app/"
+      >
+        See Live
+      </a>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn text-color-main"
+        href="https://github.com/MarcVergeire1988/project-nine-emojipedia.github.io"
+      >
+        Source Code
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-8 col-sm-12">
+    <div class="project-wrapper__image load-hidden">
+      <a rel="noreferrer" href="#!" target="_blank">
+        <div
+          data-tilt
+          data-tilt-max="4"
+          data-tilt-glare="true"
+          data-tilt-max-glare="0.5"
+          class="thumbnail rounded js-tilt"
+        >
+          <img
+            alt="Project Image"
+            class="img-fluid"
+            src="assets/project-9.png"
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- /END Project -->
+
+<!-- Notice: each .row is a project -->
+<div class="row">
+  <div class="col-lg-4 col-sm-12">
+    <div class="project-wrapper__text load-hidden">
+      <h3 class="project-wrapper__text-title">Project Ten: My Contacts</h3>
+      <div>
+        <p class="mb-4">
+          Very useful website that contains basic detail of contacts with images. Can store more contact details by using the source code.
+      </div>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn cta-btn--hero"
+        href="https://main--basic-contacts.netlify.app/"
+      >
+        See Live
+      </a>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn text-color-main"
+        href="https://github.com/MarcVergeire1988/project-ten-my-contacts.github.io"
+      >
+        Source Code
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-8 col-sm-12">
+    <div class="project-wrapper__image load-hidden">
+      <a rel="noreferrer" href="#!" target="_blank">
+        <div
+          data-tilt
+          data-tilt-max="4"
+          data-tilt-glare="true"
+          data-tilt-max-glare="0.5"
+          class="thumbnail rounded js-tilt"
+        >
+          <img
+            alt="Project Image"
+            class="img-fluid"
+            src="assets/project-10.png"
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- /END Project -->
+
+<!-- Notice: each .row is a project -->
+<div class="row">
+  <div class="col-lg-4 col-sm-12">
+    <div class="project-wrapper__text load-hidden">
+      <h3 class="project-wrapper__text-title">Project Eleven: Login Form </h3>
+      <div>
+        <p class="mb-4">
+         Unique, simple and basic login form that is made from ReactJS.
+        </p>
+      </div>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn cta-btn--hero"
+        href="https://main--basic-logging-in-form.netlify.app/"
+      >
+        See Live
+      </a>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn text-color-main"
+        href="https://github.com/MarcVergeire1988/project-twelve-login-form.github.io"
+      >
+        Source Code
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-8 col-sm-12">
+    <div class="project-wrapper__image load-hidden">
+      <a rel="noreferrer" href="#!" target="_blank">
+        <div
+          data-tilt
+          data-tilt-max="4"
+          data-tilt-glare="true"
+          data-tilt-max-glare="0.5"
+          class="thumbnail rounded js-tilt"
+        >
+          <img
+            alt="Project Image"
+            class="img-fluid"
+            src="assets/project-11.png"
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- /END Project -->
+
+<!-- Notice: each .row is a project -->
+<div class="row">
+  <div class="col-lg-4 col-sm-12">
+    <div class="project-wrapper__text load-hidden">
+      <h3 class="project-wrapper__text-title">Project Twelve: To-Do List</h3>
+      <div>
+        <p class="mb-4">
+          Awesome to-do list that is made with ReactJS with unique styles. Interactive type of app that can be use for everyday use but requires backend.
+        </p>
+      </div>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn cta-btn--hero"
+        href="https://main--common-type-to-do-list.netlify.app/"
+      >
+        See Live
+      </a>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn text-color-main"
+        href="https://github.com/MarcVergeire1988/project-sixteen-to-do-list.github.io"
+      >
+        Source Code
+      </a>
+    </div>
+-  </div>
+  <div class="col-lg-8 col-sm-12">
+    <div class="project-wrapper__image load-hidden">
+      <a rel="noreferrer" href="#!" target="_blank">
+        <div
+          data-tilt
+          data-tilt-max="4"
+          data-tilt-glare="true"
+          data-tilt-max-glare="0.5"
+          class="thumbnail rounded js-tilt"
+        >
+          <img
+            alt="Project Image"
+            class="img-fluid"
+            src="assets/project-12.png"
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">+1 (437) 779-5078</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:vergeiremarcedison@gmail.com"
+            >Email me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.instagram.com/street_scene_snaps/" target="_blank">
+            <i class="fa fa-instagram fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.linkedin.com/in/marc-edison-vergeire-aba3132a5" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/MarcVergeire1988/" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2024 - Template developed by
+          <a rel="noreferrer" href="https://github.com/MarcVergeire1988" target="_blank"
+            >Marc Edison Vergeire</a
+          >
+        </p>
+
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
